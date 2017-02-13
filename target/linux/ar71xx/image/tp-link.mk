@@ -284,7 +284,7 @@ endef
 TARGET_DEVICES += tl-mr3020-v1 tl-mr3040-v1 tl-mr3040-v2 tl-mr3220-v1 tl-mr3220-v2 tl-mr3420-v1 tl-mr3420-v2
 
 define Device/tl-wr703n-v1
-    $(Device/tplink-4mlzma)
+    $(Device/tplink-16mlzma)
     BOARDNAME := TL-WR703N
     DEVICE_PROFILE := TLWR703
     TPLINK_HWID := 0x07030101
