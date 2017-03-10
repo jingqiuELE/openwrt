@@ -824,6 +824,9 @@ ar71xx_board_detect() {
 	*"TL-WR1043ND v2")
 		name="tl-wr1043nd-v2"
 		;;
+	*"TL-WR1043ND v4")
+		name="tl-wr1043nd-v4"
+		;;
 	*TL-WR2543N*)
 		name="tl-wr2543n"
 		;;
@@ -1106,6 +1109,9 @@ ar71xx_board_detect() {
 	*"HiWiFi HC6361")
 		name="hiwifi-hc6361"
 		;;
+        *"ANONABOX_PRO")
+                name="anonabox-pro"
+                ;;
 	esac
 
 	[ -z "$AR71XX_MODEL" ] && [ "${machine:0:8}" = 'TP-LINK ' ] && \

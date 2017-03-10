@@ -181,6 +181,7 @@ platform_check_image() {
 	alfa-ap96 | \
 	alfa-nx | \
 	arduino-yun | \
+        anonabox-pro | \
 	ap113 | \
 	ap121 | \
 	ap121-mini | \
@@ -401,6 +402,7 @@ platform_check_image() {
 	tl-wr1041n-v2 | \
 	tl-wr1043nd | \
 	tl-wr1043nd-v2 | \
+	tl-wr1043nd-v4| \
 	tl-wr2543n)
 		local magic_ver="0100"
 
